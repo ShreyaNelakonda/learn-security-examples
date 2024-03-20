@@ -1,0 +1,14 @@
+Tampering refers to the unauthorized modification of data or code, potentially leading to security vulnerabilities
+or undesirable behavior in the application. For example, an attacker may tamper with client-side variables or
+parameters to manipulate application logic, gain unauthorized access, or perform malicious actions.
+
+Secure practices involve implementing measures such as input validation, data integrity checks,
+and server-side validation to prevent tampering. By validating inputs, encrypting sensitive data, and enforcing
+server-side controls, developers can ensure the integrity of data and code, mitigating the risk of tampering attacks.
+Additionally, employing techniques like code obfuscation and implementing access controls helps deter attackers from
+attempting to tamper with the application's code or data.
+
+Tampering primarily violates the CIA (Confidentiality, Integrity, Availability) property of integrity.
+By tampering with data or code, unauthorized individuals can modify or alter information, leading to a loss of
+trustworthiness, accuracy, or reliability. This undermines the integrity of the data or system, potentially resulting
+in incorrect outcomes, unauthorized access, or compromised functionality.
