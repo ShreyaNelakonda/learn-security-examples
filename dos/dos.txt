@@ -1,2 +1,12 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+Denial of Service (DoS) attacks aim to disrupt the availability of a service by overwhelming it with a flood of requests
+or malicious traffic, thereby making it inaccessible to legitimate users.
+Implementing rate limiting and traffic filtering techniques can prevent DoS attacks. Rate limiting controls the number
+of requests a user can make within a specific timeframe, while traffic filtering blocks malicious traffic based on
+predefined rules or patterns.
+
+Additional security mechanisms:
+1) Deploying web application firewalls (WAF) to filter and block malicious traffic at the application layer.
+2) Implementing network traffic analysis tools to monitor and identify abnormal traffic patterns indicative of DoS attacks.

@@ -1,2 +1,15 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+Repudiation is the denial of responsibility for a particular action or transaction. In the context of security, it
+refers to the inability to prove that an action was performed by a specific user or entity, leading to disputes over
+accountability.
+Implementing robust logging and auditing mechanisms can help prevent repudiation attacks.
+By logging all actions taken within a system or application, including user interactions and transactions,
+it becomes possible to trace back actions to specific users or entities.
+
+Additional security mechanisms:
+1) Utilizing digital signatures or cryptographic techniques to ensure the authenticity and integrity of logged events,
+making it challenging for users to repudiate their actions.
+2) Integrating workflow automation and approval mechanisms to enforce accountability and ensure that all actions are
+authorized and properly documented.

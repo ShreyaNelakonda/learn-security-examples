@@ -1,3 +1,18 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+Information disclosure occurs when sensitive data is exposed to unauthorized parties. For instance, in a web
+application, sensitive information like user credentials or database contents might be accessible due to poor
+coding practices or misconfigured permissions.
+Implementing proper access controls, encryption, and validation mechanisms can prevent information disclosure
+vulnerabilities. For instance, ensuring that sensitive data is encrypted both at rest and in transit, restricting
+access to authorized users only through robust authentication and authorization mechanisms can help mitigate
+information disclosure risks.
+
+Information disclosure violates the confidentiality aspect of the CIA property.
+Additional security mechanisms:
+1) Regular security audits and vulnerability assessments to identify and fix potential weaknesses.
+2) Training employees on security best practices to prevent inadvertent disclosure of sensitive information.
+3) Utilizing robust logging and monitoring systems to track access to sensitive data and detect suspicious activities
+in real-time.

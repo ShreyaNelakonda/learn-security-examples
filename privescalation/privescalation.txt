@@ -1,0 +1,12 @@
+Privilege escalation is a security issue where an attacker gains higher-level access to a system or application than
+they are authorized for. This can occur due to flaws in software or misconfigurations that allow an attacker to elevate
+their privileges.
+Implementing least privilege principles and proper access controls can prevent privilege escalation attacks.
+Least privilege entails giving users or processes only the minimum level of access required to perform their tasks.
+Additionally, regular security patching and updates help mitigate vulnerabilities that could be exploited for privilege
+escalation.
+
+Additional security mechanisms:
+1) Implementing strong authentication mechanisms, such as multi-factor authentication (MFA), to prevent unauthorized
+access to sensitive resources.
+2) Monitoring system logs and audit trails for suspicious activities indicative of privilege escalation attempts.
